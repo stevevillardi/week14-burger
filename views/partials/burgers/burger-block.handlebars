@@ -1,0 +1,8 @@
+<li class="mt-1">
+	<span class="fa-li"><i class="fas fa-hamburger"></i></span>
+	<span>{{burger_name}}</span>
+	<button class="devour-burger btn btn-primary btn-sm" data-id="{{id}}"
+		data-devoured="{{devoured}}">
+		{{#unless devoured}}Eat Me!{{else}}Un Eat Me!{{/unless}}
+	</button>
+</li>
